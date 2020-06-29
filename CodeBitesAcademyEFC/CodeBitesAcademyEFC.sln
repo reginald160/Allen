@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBitesAcademyEFC", "CodeBitesAcademyEFC\CodeBitesAcademyEFC.csproj", "{F7CD7E84-F233-4693-B928-D64BF9B8B4EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7CD7E84-F233-4693-B928-D64BF9B8B4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CD7E84-F233-4693-B928-D64BF9B8B4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CD7E84-F233-4693-B928-D64BF9B8B4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CD7E84-F233-4693-B928-D64BF9B8B4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03164119-184C-4AB9-978F-1D94E9E3A19C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿@model Allen.Models.Customer
+@{ 
+    ViewData["Title"] = "New Connection";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h2 class="pt-5 text-white">Ready to get started on Your Connection to Our extensible Community <Span id="your">NEW CONNECTION</Span></h2>
+    <h3 class="pt-4 text-white">One more Step!</h3>
+    <form asp-controller="Home" asp-action="Index">
+        <div class="form-row align-items-center">
+            <div class="col-md-3">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control mb-2" id="inlineFormInput" placeholder="Enter First Name" required>
+            </div>
+            <div class="col-md-3">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Last Name" required>
+            </div>
+            <div class="col-md-3">
+                <label asp-for="Phone"></label>
+                <input asp-for="Phone" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Phone Number" required>
+            </div>
+            <div class="col-md-3">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Email Address" required>
+            </div>
+            <div class="col-md-12">
+                <label>Comment</label>
+                <textarea class="form-control mb-3" id="" cols="20" rows="5" placeholder="Enter your Comment"></textarea>
+            </div>
+           
+            <div class="col-md-12 pt-2">
+                <p>By submitting this form you agreed to the terms of use and privacy of the website.</p>
+                <label>Would You Like to Join Our Mailing List?</label><br>
+                <input class="bg-danger text-danger" type="checkbox"><span> Yes, Make me smarter?</span>
+                <p>*You'll recieve monthly updates, dat, mobile and social development articles.</p>
+
+            </div>
+            <div class="col-md-12 text-center pb-5">
+                <input   onclick="return alert('You are now connected !, click ok continue')"  type="submit" class="btn btn-danger btn-lg" value="New Connection">
+            </div>
+        </div>
+    </form>
+</div>

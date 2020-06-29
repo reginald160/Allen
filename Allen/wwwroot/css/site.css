@@ -1,0 +1,260 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.navPanel{
+    position:fixed;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  margin-top :0px;
+  background-color:gainsboro;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+/* home page............................................*/
+.home-banner {
+   background-image: url('../images/homeBanner.jpg');
+   height: 500px;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+.purchase-Btn{
+    border-radius: 4px;
+}
+
+.Vision {
+    background-image: url('../images/bg1.jpg');
+}
+/*Product and Services.............................................*/
+.ProduAndService-banner {
+    background-image: url('../images/productandservices.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-section h2 {
+    font-size:30px;
+   
+}
+
+.subheading {
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+.product-icon{
+    font-size: 13px;
+}
+
+.product-title {
+    border-radius: 15px;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:gainsboro;
+}
+.connection-list{
+    list-style:circle
+}
+/* FAQS..............................................................*/
+.faqs-banner {
+    background-image: url('../images2/about-1.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*About us .......................................*/
+
+.AboutUs-banner {
+    background-image: url('../images2/bg_1.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*contact us.....................................*/
+
+.contactUs-banner {
+    background-image: url('../images/outteam.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.contact-wrap {
+    background: white;
+}
+
+.info-wrap {
+    color: rgba(255,255,255,.8);
+}
+
+
+
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/*  footer....................................................................*/
+.footer-panel {
+    background: grey;
+}
+
+.hash {
+    color: maroon;
+}
+
+.text1 {
+    color: white;
+}
+
+#your {
+    color: saddlebrown;
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.ironscan {
+    padding: 60px 0px;
+}
+
+.black {
+    background: #000;
+    font-size: 14px;
+    padding: 0 50px;
+    line-height: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: red;
+    }
+
+ul {
+    list-style: none;
+}
+
+hr {
+    border: 1px solid grey;
+    margin-bottom: 45px;
+}
+
+.lined div p {
+    border-right: 1px solid white;
+}
+
+.last div .p {
+    border-right: 1px solid white;
+}
+
+@media (max-width:500px) {
+    .ourBusiness-panel {
+        padding-top: 200px;
+    }
+}
+
+@media (max-width:600px) {
+    .award {
+        padding-top: 100px;
+        width: 150px;
+    }
+}
+
+/*Business layout...........................................................*/
+.btn{
+    border-radius: 12px;
+}

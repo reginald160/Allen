@@ -1,0 +1,29 @@
+﻿   @model List<Allen.Models.Customer
+>
+
+@{ ViewBag.Title = "Customers";
+  Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<h2>Movies</h2>
+@if (!Model.Any())
+{
+<p>We don't have any  yet.</p> }
+            else
+            {
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Number in stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Customer in Model)
+        {
+<tr>
+     
+    <td>@Customer.BirthDate</td>
+    
+</tr>}
+    </tbody>
+</table>}

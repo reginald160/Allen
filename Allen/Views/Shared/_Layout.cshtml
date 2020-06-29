@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Allen</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css " />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bg-wrap">
+                            <div class="row">
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <p class="mb-0 phone pl-md-2">
+                                        <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +2348037620380</a>
+                                        <a href="#"><span class="fa fa-paper-plane mr-1"></span> Customerservice@allin.com</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-md-end">
+                                    <div class="social-media">
+                                        <p class="mb-0 d-flex pl-md-2">
+                                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-facebook"><i class="sr-only tex-danger pl-2">Facebook</i></span></a>
+                                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fab fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-danger ">
+            <div class="container">
+                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Allen</a>
+                <form action="#" class="searchform order-sm-start order-lg-last">
+                    <div class="form-group d-flex">
+                        <input type="text" class="form-control pl-3" placeholder="Search">
+                        <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+                    </div>
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span> Menu
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="ProductAndServices" asp-action="Index">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="AboutUs" asp-action="Index">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-left" asp-area="" asp-controller="FAQs" asp-action="Index">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    
+            @RenderBody()
+        
+   
+    <footer class="border-top  mb-0 mt-3" >
+        <section class="container-fluid  bg-dark pt-4">
+               <hr>
+            <div class="row text-white lined">
+                <div class="col-md-3">
+                    <p id="heading"><b>Allen Communication</b></p>
+                </div>
+                <div class="col-md-2 p">
+                    <p>12 Ziks Avenue</p>
+                </div>
+                <div class="col-md-1 p">
+                    <p>Suite 401</p>
+                </div>
+                <div class="col-md-2 p">
+                    <p>Enugu, Nigeria</p>
+                </div>
+                <div class="col-md-2 p">
+                    <i class="far fa-envelop">customerservice@Allen.com</i>
+                </div>
+                <div class="col-md-2 p">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid last">
+                <div class="row">
+                    <div class="col-md-2 p">
+                        <a href="#">Testimonials</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#">Contact us</a>
+                    </div>
+                    <div class="col-md-2 p">
+                        <a href="#">About Us</a>
+                    </div>
+                    <div class="col-md-2 p">
+                        <a href="#">Career</a>
+                    </div>
+                    <div class="col-md-2 p">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="col-md-2 p">
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-white text-center container-fluid">
+                <div class=" col-sm-4 col-md-12 ">
+                    <span><a>&copy; Allen Communications 2020</a></span>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
